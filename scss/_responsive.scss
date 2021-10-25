@@ -1,0 +1,91 @@
+@media only screen and (max-width: 768px) {
+    body {
+        width: 768px;
+        max-width: 100%;
+    }
+    .flex {
+        width: 100%;
+        .header {
+            .logo {
+                width: 80%;
+                & img {
+                    width: 100%;
+                }
+            }
+            nav {
+                width: 100%;
+                .nav ul {
+                    display: none;
+                }
+            }
+        }
+        .toggle {
+            display: block;
+            position: absolute;
+            top: 10px;
+            font-size: 30px;
+            right: 5px;
+        }
+    }
+
+    .active {
+        width: 100%;
+        overflow-y: hidden;
+        background-color: #0b3c5d;
+        height: 100vh;
+        transition: all .5s ease;
+        z-index: 20;
+        .header {
+            nav {
+                width: 100%;
+                text-align: right;
+                padding: 1em 10px 0 0;
+                .nav ul {
+                    display: block;
+                    & li {
+                        line-height: 15vh;
+                        transition: all 1s ease;
+                        & a {
+                            color: #c5c1c0;
+                        }
+                    }
+                }
+            }
+        }
+        .toggle {
+            display: none;
+        }
+        .remove {
+            display: block;
+            position: absolute;
+            top: 10px;
+            font-size: 30px;
+            right: 5px;
+        }
+    }
+    main {
+        width: 100%;
+        .motor {
+            flex-direction: column;
+            & img {
+                width: 100%;
+            }
+        }
+        .text {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .rating {
+            .others {
+                width: 100%;
+            }
+            .img-section {
+                width: 90%;
+                & img {
+                    width: 100%;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}

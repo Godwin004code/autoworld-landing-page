@@ -1,0 +1,166 @@
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: linear-gradient(180deg, #b991db, #67b0df);
+  overflow-x: hidden;
+  font-family: "Cardo", serif;
+}
+header li {
+  list-style: none;
+  display: inline;
+  font-size: 27px;
+  width: 20px;
+}
+a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+ul a:hover {
+  text-decoration: underline;
+  color: rgb(240, 12, 145);
+  background-color: grey;
+  border-radius: 10px;
+}
+header {
+  margin-top: 0px;
+  background-color: white;
+  position: fixed;
+}
+header img {
+  width: 140px;
+  height: 50px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.navigate {
+  margin-left: 800px;
+  padding-top: 10px;
+}
+.slider {
+  width: 100vw;
+  height: 100vh;
+}
+.tesla {
+  width: 49vw;
+  height: 60vh;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.Tesl {
+  display: flex;
+}
+.motor {
+  font-size: 23px;
+  line-height: 30px;
+  width: 45%;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+p {
+  color: rgb(58, 56, 56);
+}
+.motor H2 {
+  text-decoration: underline;
+  color: #02253b;
+}
+.motor li {
+  display: block;
+}
+.section {
+  margin-top: -70px;
+}
+.section ul {
+  margin-top: -30px;
+  font-size: 25px;
+  color: rgb(58, 56, 56);
+}
+.motor ul {
+  margin-left: 80px;
+  margin-top: -70px;
+}
+#rate h1 {
+  font-size: 50px;
+  text-align: center;
+}
+#rate h2 {
+  font-size: 40px;
+  margin-left: 30px;
+}
+#rate img {
+  width: 70%;
+  margin-left: 30px;
+}
+#rate li {
+  font-size: 25px;
+  list-style: none;
+}
+#rate button {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgb(212, 50, 212);
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.fast {
+  width: 70vw;
+  margin-left: 90px;
+}
+.expen {
+  width: 70vw;
+  margin-right: -150px;
+}
+.group {
+  display: flex;
+}
+#explore img {
+  width: 30vw;
+  height: 30vh;
+}
+#explore h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#explore h2 {
+  background-color: black;
+  color: white;
+  width: 290px;
+  margin-left: 30px;
+}
+.exp {
+  display: flex;
+}
+.expl {
+  display: flex;
+  margin-top: 50px;
+}
+.explo {
+  display: flex;
+  margin-top: 50px;
+}
+#about img {
+  width: 400px;
+  height: 200px;
+  margin-left: 50px;
+}
+#about p {
+  font-size: 25px;
+  width: 600px;
+  margin-left: 100px;
+}
+.auto {
+  display: flex;
+}
+#about h1 {
+  font-size: 50px;
+  text-align: center;
+}
+#about h2 {
+  margin-left: 100px;
+  margin-bottom: -10px;
+  color: rgb(39, 2, 39);
+  font-weight: bolder;
+}
